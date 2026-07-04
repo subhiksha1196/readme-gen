@@ -1,0 +1,19 @@
+{
+  "name": "readme-gen",
+  "version": "1.0.0",
+  "description": "Auto-generate README.md for any project by reading its files",
+  "main": "index.js",
+  "bin": {
+    "readme-gen": "./index.js"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "test": "node index.js --help"
+  },
+  "dependencies": {
+    "minimist": "^1.2.8"
+  },
+  "keywords": ["readme", "cli", "generator", "docs"],
+  "author": "",
+  "license": "ISC"
+}
